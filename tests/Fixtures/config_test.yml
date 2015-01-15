@@ -1,0 +1,7 @@
+#RethinkDB Configuration Example
+rethinkdb:
+    hostname: 127.0.0.1
+    port: 28015
+    database: test
+    apiKey:  ~
+    timeout:   ~

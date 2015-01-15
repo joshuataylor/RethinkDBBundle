@@ -1,0 +1,29 @@
+{
+    "name":         "joshuataylor/rethinkdb-bundle",
+    "type":         "symfony-bundle",
+    "description":  "Symfony2 Bundle for RethinkDB",
+    "keywords":     ["rethinkdb", "events", "analytics", "symfony", "bundle" ],
+    "homepage":     "https://github.com/joshuataylor/RethinkDBBundle",
+    "license":      "MIT",
+    "authors":      [
+        {
+            "name":     "Josh Taylor",
+            "email":    "joshuataylorx@gmail.com",
+            "role":     "developer",
+            "homepage": "http://joshtaylor.id.au"
+        }
+    ],
+    "support":     {
+        "email": "joshuataylorx@gmail.com"
+    },
+    "require":     {
+        "php":                      ">=5.3.0",
+        "danielmewes/php-rql":          "1.15.1",
+         "phpunit/phpunit": "4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "joshuataylor\\Bundle\\RethinkDBBundle\\": "src/"
+        }
+    }
+}
